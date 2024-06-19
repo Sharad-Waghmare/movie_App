@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav1{
+  background-color: rgb(15, 23, 42);
+  color: #fff;
+}

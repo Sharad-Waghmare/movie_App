@@ -24,8 +24,14 @@
   color: white;
 }
 
+
+
 .App-link {
   color: #61dafb;
+}
+
+.nav1{
+  background-color: rgb(15, 23, 42);
 }
 
 @keyframes App-logo-spin {

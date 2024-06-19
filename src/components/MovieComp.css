@@ -1,0 +1,64 @@
+.star-icon1 {
+  background-color: black;
+  padding: 2px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  color: orange;
+}
+
+.heading h6 {
+  font-size: 13px;
+  color: lightgray;
+}
+
+.heading span {
+  font-size: 20px;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+}
+
+.full-width-image {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.text-overlay {
+  position: absolute;
+  bottom: -50px;
+  left: 51px;
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 38px;
+  border-radius: 12px;
+  width: 45%;
+}
+
+.img-row {
+  margin-top: 115px;
+  margin-left: 49px;
+}
+
+.image1 {
+  border-radius: 12px;
+}
+
+.text-overlay h2,
+.text-overlay p {
+  margin: 0;
+}
+
+
+.plot{
+  margin-top: 0;
+  margin-bottom: 1rem;
+  width: 65%;
+  font-size: 17px;
+  color: rgba(128, 128, 128, 1.2);
+}
+
+.detail-item h6{
+  color: rgba(128, 128, 128, 1.2);
+}
