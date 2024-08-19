@@ -6,17 +6,17 @@ import { Image } from 'react-bootstrap';
 const NavbarComp = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark  nav1" >
-        <div className="container">
-          <Link className="navbar-brand" to="/"> 
+        <nav class="navbar navbar-expand-lg navbar-dark nav1">
+        <div class="container">
+        <Link className="navbar-brand" to="/"> 
           <Image src={img} className='w-25 p-3' alt='avg' />
           </Link>
-          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse  navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav  ms-auto">
-              <li className="nav-item">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+            <li className="nav-item">
                 <Link className="nav-link text-light" to="/">Movies</Link>
               </li>
               <li className="nav-item">
